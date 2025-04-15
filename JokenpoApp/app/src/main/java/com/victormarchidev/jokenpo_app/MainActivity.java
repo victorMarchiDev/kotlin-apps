@@ -1,6 +1,7 @@
 package com.victormarchidev.jokenpo_app;
 
 import android.os.Bundle;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,5 +16,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+    }
+
+    public void selecionarPedra(View view){
+        verificarGanhador("Pedra");
+    }
+
+    public void selecionarPapel(View view){
+        verificarGanhador("Papel");
+    }
+
+    public void selecionarTesoura(View view){
+        verificarGanhador("Tesoura");
+    }
+
+    private void verificarGanhador(String escolhaUsuario){
+        System.out.println("item clicado: " + escolhaUsuario);
     }
 }
