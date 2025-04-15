@@ -1,8 +1,8 @@
-# 📚 kotlin-apps
+# 📚 Kotlin-apps
 
 Bem-vindo ao repositório **kotlin-apps**! 🚀
 
-Este repositório foi criado com o objetivo de reunir diversos projetos que desenvolvo durante meus estudos da linguagem **Kotlin**. Aqui você vai encontrar desde exemplos simples até experimentações com bibliotecas, frameworks e arquiteturas. Tudo com foco em aprendizado, prática e evolução constante! 💡
+Este repositório foi criado com o objetivo de reunir diversos projetos que desenvolvo durante meus estudos da linguagem **Kotlin** para desenvolvimento mobile. Aqui você vai encontrar desde exemplos simples até experimentações com bibliotecas, frameworks e arquiteturas. Tudo com foco em aprendizado, prática e evolução constante! 💡
 
 ---
 
@@ -24,9 +24,8 @@ A ideia é explorar uma variedade de tópicos, como:
 
 - ✅ Fundamentos da linguagem Kotlin
 - 🧬 Programação funcional e orientada a objetos
-- 📱 Desenvolvimento Android (Jetpack Compose, XML, etc)
+- 📱 Desenvolvimento Android (Jetpack Compose, XML, Java, etc)
 - 🌐 Aplicações Kotlin multiplataforma (KMM)
-- 💻 Kotlin para backend (Ktor, Spring Boot com Kotlin)
 - 🧪 Testes, corrotinas, DSLs e muito mais!
 
 ---
