@@ -3,6 +3,7 @@ package com.victormarchidev.jokenpo_app;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -57,6 +58,23 @@ public class MainActivity extends AppCompatActivity {
     private void verificarGanhador(String escolhaUsuario){
 
         String escolhaApp = gerarEscolhaAleatoria();
+        TextView textoResultado = findViewById(R.id.text_resultado);
+
+        if (
+            (escolhaApp == "Pedra" && escolhaUsuario == "Tesoura") ||
+            (escolhaApp == "Papel" && escolhaUsuario == "Pedra") ||
+            (escolhaApp == "Tesoura" && escolhaUsuario == "Papel")
+        ){
+            textoResultado.setText("Voce perdeu :(");
+        } else if(
+            (escolhaUsuario == "Pedra" && escolhaApp == "Tesoura") ||
+            (escolhaUsuario == "Papel" && escolhaApp == "Pedra") ||
+            (escolhaUsuario == "Tesoura" && escolhaApp == "Papel")
+        ){
+            textoResultado.setText("Voce ganhou :)");
+        } else {
+            textoResultado.setText("Empatamos :(");
+        }
 
         //System.out.println("item clicado: " + escolhaUsuario);
     }
